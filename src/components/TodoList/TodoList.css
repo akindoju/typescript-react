@@ -1,6 +1,25 @@
+.container {
+  display: flex;
+  width: 95%;
+  margin-top: 10px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
 .todos {
   display: flex;
-  justify-content: space-evenly;
-  width: 90%;
-  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 15px;
+  border-radius: 5px;
+  width: 47.5%;
+  background-color: rgb(12, 55, 58);
+}
+
+.todos__heading {
+  color: white;
+  font-size: 30px;
+}
+
+.remove {
+  background-color: rgb(112, 201, 23);
 }
